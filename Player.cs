@@ -12,7 +12,7 @@ public class Player : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		float axisX = Input.GetAxis ("Horizontal");
 		float axisY = Input.GetAxis ("Vertical");
 
